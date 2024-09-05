@@ -1,58 +1,79 @@
 const product = [
+    
     {
         id: 0,
-        image: './images/mobile.jpeg',
-        title: 'Z Flip Foldable Mobile',
-        price: 120,
+        image: '/images/single-light.png',
+        title: 'Green Screen',
+        price: 30,
     },
     {
         id: 1,
-        image: './images/airburd.jpeg',
+        image: '/images/tripod.png',
+        title: 'Flex Tripod',
+        price: 50.8,
+    },
+    {
+        id: 2,
+        image: '/images/mic.png',
+        title: 'Microphone',
+        price: 120,
+    },
+    {
+        id: 3,
+        image: '/images/airpod.png',
+        title: 'Airbuds',
+        price: 230,
+    },
+    {
+        id: 4,
+        image: '/images/drone.png',
+        title: 'Drone',
+        price: 900,
+    },
+    {
+        id: 5,
+        image: '/images/lights.png',
+        title: 'Light Setup',
+        price: 120,
+    },
+
+    {
+        id: 6,
+        image: '/images/setup.png',
+        title: 'Photoshoot set',
+        price: 820,
+    },
+    {
+        id: 7,
+        image: '/images/camera2.png',
+        title: 'Vlogging Carmera',
+        price: 1500,
+    },
+    {
+        id: 8,
+        image: '/images/action.png',
+        title: 'Action Camera',
+        price: 230,
+    },
+    {
+        id: 9,
+        image: '/images/mobile.jpg',
+        title: 'Foldable Mobile',
+        price: 120,
+    },
+    {
+        id: 10,
+        image: '/images/airburd.jpeg',
         title: 'Air Pods Pro',
         price: 60,
     },
     {
-        id: 2,
-        image: './images/camera.jpeg',
-        title: '250D DSLR Camera',
+        id: 11,
+        image: '/images/camera.jpeg',
+        title: 'DSLR Camera',
         price: 230,
     },
-    {
-        id: 3,
-        image: './images/headphone.jpeg',
-        title: 'Head Phones',
-        price: 100,
-    },
-    {
-        id: 0,
-        image: './images/mobile.jpeg',
-        title: 'Z Flip Foldable Mobile',
-        price: 120,
-    },
-    {
-        id: 1,
-        image: './images/airburd.jpeg',
-        title: 'Air Pods Pro',
-        price: 60,
-    },
-    {
-        id: 2,
-        image: './images/camera.jpeg',
-        title: '250D DSLR Camera',
-        price: 230,
-    },
-    {
-        id: 3,
-        image: './images/headphone.jpeg',
-        title: 'Head Phones',
-        price: 100,
-    },
-    {
-        id: 3,
-        image: './images/headphone.jpeg',
-        title: 'Head Phones',
-        price: 100,
-    }
+    
 ];
 const categories = [...new Set(product.map((item)=>
     {return item}))]
